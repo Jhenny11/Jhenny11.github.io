@@ -9,7 +9,7 @@ function clickLike1(){
 function clickLike2(){
     let totalLikes2 = parseInt(countLikes2.value) + 1
     countLikes2.textContent = totalLikes2.toString()
-    
+}   
 const btnDislike1 = document.getElementById("btnDislike1")
 const countDislike1 = document.getElementById("countDislike1")
 const btnDislike2 = document.getElementById("btnDislike2")
