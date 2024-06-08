@@ -24,6 +24,8 @@ function clickDislike2(){
 }
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
+btnLike1.addEventListener("click",clickDisLike1)
+btnLike2.addEventListener("click",clickDisLike2)
 
 const submit = document.getElementById("submit")
 const comment = document.getElementById("comment")
